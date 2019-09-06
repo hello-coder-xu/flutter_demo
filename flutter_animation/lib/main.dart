@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animation/com.demo.animated/animated_builder/animated_builder.dart';
 import 'package:flutter_animation/com.demo.animated/curved/curved_page.dart';
-import 'package:flutter_animation/com.demo.animated/index.dart';
+import 'package:flutter_animation/com.demo.animated/other/index.dart';
+import 'package:flutter_animation/com.demo.animated/transition/index.dart';
+import 'package:flutter_animation/com.demo.animated/tween/index.dart';
 
 import 'package:flutter_animation/util.dart';
 
@@ -37,6 +39,20 @@ class AnimationDemo extends StatelessWidget {
                 title: 'AnimatedBuilder动画',
                 onPressed: () {
                   toPage(context, AnimatedBuilderPage());
+                },
+              ),
+              sizedBox,
+              buttonWidget(
+                title: 'Transition动画',
+                onPressed: () {
+                  toPage(context, TransitionPage());
+                },
+              ),
+              sizedBox,
+              buttonWidget(
+                title: '常间动画',
+                onPressed: () {
+                  toPage(context, OtherPage());
                 },
               ),
             ],

@@ -31,7 +31,7 @@ class CurvedPageState extends State<CurvedPage> with SingleTickerProviderStateMi
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text('自由落体'),
+        title: new Text('球自由落体'),
         centerTitle: true,
       ),
       body: Align(
@@ -40,7 +40,10 @@ class CurvedPageState extends State<CurvedPage> with SingleTickerProviderStateMi
           width: 100,
           height: 100,
           margin: EdgeInsets.only(top: animation.value.dy),
-          color: Colors.green,
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.all(Radius.circular(50)),
+            color: Colors.green,
+          ),
         ),
       ),
     );

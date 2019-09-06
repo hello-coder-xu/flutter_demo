@@ -16,6 +16,12 @@ dev_dependencies:
     sdk: flutter
 
 
+
 flutter:
+
+
+  assets:
+    - assets/images/photo.png
+    - assets/images/house.jpg
 
 

@@ -50,7 +50,7 @@ class AnimationDemo extends StatelessWidget {
               ),
               sizedBox,
               buttonWidget(
-                title: '常间动画',
+                title: '常用动画',
                 onPressed: () {
                   toPage(context, OtherPage());
                 },

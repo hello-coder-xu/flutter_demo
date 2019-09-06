@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animation/com.demo.animated/other/AnimatedListPage.dart';
+import 'package:flutter_animation/com.demo.animated/other/AnimatedCrossFadePage.dart';
 import 'package:flutter_animation/util.dart';
 
 ///常间动画
@@ -21,6 +22,13 @@ class OtherPage extends StatelessWidget {
                 title: '列表动画',
                 onPressed: () {
                   toPage(context, AnimatedListPage());
+                },
+              ),
+              sizedBox,
+              buttonWidget(
+                title: '切换动画',
+                onPressed: () {
+                  toPage(context, AnimatedCrossFadePage());
                 },
               ),
             ],

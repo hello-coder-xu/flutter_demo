@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animation/com.demo.animated/other/AnimatedListPage.dart';
 import 'package:flutter_animation/com.demo.animated/other/AnimatedCrossFadePage.dart';
 import 'package:flutter_animation/com.demo.animated/other/HeroAnimationPage.dart';
+import 'package:flutter_animation/com.demo.animated/other/StaggeredAnimationPage.dart';
 import 'package:flutter_animation/util.dart';
 
 ///常间动画
@@ -37,6 +38,13 @@ class OtherPage extends StatelessWidget {
                 title: '共享元素动画',
                 onPressed: () {
                   toPage(context, HeroAnimationPage());
+                },
+              ),
+              sizedBox,
+              buttonWidget(
+                title: '交错动画',
+                onPressed: () {
+                  toPage(context, StaggeredAnimationPage());
                 },
               ),
             ],

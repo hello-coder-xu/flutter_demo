@@ -5,7 +5,7 @@ flutter 动画详解
 
 ## Getting Started
 
-![变化.gif](https://user-gold-cdn.xitu.io/2019/9/9/16d13eb5760618e9?w=720&h=1488&f=gif&s=1291188)
+![变化.gif](https://user-gold-cdn.xitu.io/2019/9/9/16d13eb5760618e9?w=242&h=500&f=gif&s=1291188)
 
 ![变形.gif](https://user-gold-cdn.xitu.io/2019/9/9/16d13eb5737b4a5d?w=720&h=1488&f=gif&s=969418)
 
